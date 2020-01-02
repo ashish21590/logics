@@ -6,7 +6,7 @@ $high = count($arr)-1;
 
 quickSort($arr,$low,$high);
 
-
+print_r($arr);
  function quickSort($arr,$low,$high)
 {
             # code...
@@ -22,7 +22,7 @@ quickSort($arr,$low,$high);
 
         }
 
-        print_r($arr);
+        
 
 }
 
@@ -64,4 +64,4 @@ function partition($arr,$low,$high)
 
 
 
-// print_r($arr);
+print_r($arr);
